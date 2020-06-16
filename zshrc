@@ -10,6 +10,7 @@ plugins=(git gitfast last-working-dir common-aliases sublime zsh-syntax-highligh
 export HOMEBREW_NO_ANALYTICS=1
 
 # Actually load Oh-My-Zsh
+ZSH_DISABLE_COMPFIX=true
 source "${ZSH}/oh-my-zsh.sh"
 unalias rm # No interactive rm by default (brought by plugins/common-aliases)
 
