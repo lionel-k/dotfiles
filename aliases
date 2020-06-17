@@ -7,3 +7,4 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
 alias ber='bundle exec rspec'
 alias killer='kill `lsof -wni tcp:3000 | grep ruby | awk "{ print $2 }"`'
+alias start='docker-compose start && rails s thin -b 127.0.0.1'
