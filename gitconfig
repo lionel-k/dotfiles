@@ -49,3 +49,5 @@
 [user]
 	name = Lionel Kubwimana
 	email = lionel.kubwimana@gmail.com
+[hub]
+	protocol = https
