@@ -21,6 +21,8 @@
 		".pytest_cache",
 		"__pycache__"
 	],
+	"font_size": 10,
+	"format_on_save": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
@@ -30,8 +32,9 @@
 	"remember_open_files": false,
 	"rulers":
 	[
-		80
+		120
 	],
+	"save_on_focus_lost": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
